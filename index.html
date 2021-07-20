@@ -1,11 +1,35 @@
 <!doctype html>
+<style>
+    .search-bar {
+        display: flex;
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 100px;
+        border-color: rgba(190, 190, 190, 0.8);
+        width: 561px;
+        height: 44px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .img {
+        position: relative;
+        top: 10px;
+    }
+    .input {
+        width: 100%;
+        border-color: transparent;
+        font-size: 16px;
+        margin-left: 20px;
+    }
+</style>
 <html>
-    
     <center>
-        <img src="https://cdn.vox-cdn.com/thumbor/Pkmq1nm3skO0-j693JTMd7RL0Zk=/0x0:2012x1341/1200x800/filters:focal(0x0:2012x1341)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg" width="500px">
+        <img src="https://cdn.vox-cdn.com/thumbor/Pkmq1nm3skO0-j693JTMd7RL0Zk=/0x0:2012x1341/1200x800/filters:focal(0x0:2012x1341)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg" width="400px">
         <br>
-        <input type="text" class="search-bar">
-        <button type="submit">Submit</button>
+        <div class="search-bar">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/1200px-Vector_search_icon.svg.png" width="22px" height="25px" class="img">
+            <input type="text" placeholder="Search Google or type a URL" class="input">
+        </div>
     </center>
 
 </html>
