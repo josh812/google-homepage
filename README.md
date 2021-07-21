@@ -1,1 +1,1 @@
-This is just a sample project that is made to look the google homepage
+This is just a project that is made to look the google homepage
