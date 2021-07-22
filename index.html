@@ -8,7 +8,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Google</title>
-    <nav class="navbar">
+    <nav id="navbar">
         <div class="div">
             <a class="navbar-text" href="#">About</a>
             <a class="navbar-text" href="#">Store</a>
@@ -16,17 +16,18 @@
         <div class="div">
             <a class="navbar-text" href="#">Gmail</a>
             <a class="navbar-text" href="#">Images</a>
-			<span class="material-icons waffle">apps</span>
+			<span class="material-icons" id="waffle">apps</span>
+			<div id="sign-in-btn">Sign In</div>
         </div>
     </nav>
 </head>
 <center>
-    <img src="images/google-logo.jpg" class="google-logo">
+    <img src="images/google-logo.jpg" id="google-logo">
     <br>
-    <div class="search-bar">
-        <img src="images/search-icon.png" width="30px" height="30px" class="search-icon">
-        <input type="text" class="input" autofocus>
-		<img src="images/microphone-icon.png" width="30px" height="30px" class="microphone-icon">
+    <div id="search-bar">
+        <img src="images/search-icon.png" width="30px" height="30px" id="search-icon">
+        <input type="text" id="input" autofocus>
+		<img src="images/microphone-icon.png" width="30px" height="30px" id="microphone-icon">
     </div>
     <button class="btn" type="button">Google Search</button>
     <button class="btn" type="button">I'm feeling Lucky</button>
